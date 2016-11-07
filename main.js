@@ -4,15 +4,15 @@ $(document).ready(function() {
 
   $(document).keydown(function (e) {
           var keyCode = e.keyCode || e.which,
-          arrow = {left: 37, up: 38, right: 39, down: 40 };
+          keys = {a: 65, w: 87};
 
           switch (keyCode) {
 
-              case arrow.left:
-                  $('#car1').animate({"left": "-=5px"}, "fast");
+              case keys.a:
+                  $('#car1').animate({"right": "-=5px"}, "fast");
               break;
 
-              case arrow.right:
+              case keys.w:
                   $('#car2').animate({"left": "+=5px"}, "fast");
               break;
           }
@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 
 function checkWinner(){
-    if ($('#car1').css('margin-left')==='400px') {
+    if ($('#car1').css('margin-left')==='1400px') {
       $('.container-fluid').append('<img  src="http://www.dailyhaha.com/_pics/super_ugly_monkey.jpg" />');
         alert('Apple wins!');
         $('body').css('background-color', '#5122EA');
@@ -30,8 +30,3 @@ function checkWinner(){
     alert('Windows wins!');
 
 }
-
-$('button').click(function() {
-      location.reload();
-      console.log('button clicked');
-  });

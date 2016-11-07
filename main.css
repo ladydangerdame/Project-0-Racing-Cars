@@ -2,21 +2,6 @@ body {
     text-align: center;
 }
 
-
-
-button {
-    background: #933;
-    color: white;
-    padding: 10px;
-    border: solid 2px black;
-    border-radius: 5px;
-    font-size: 18px;
-    margin: 20px 0;
-}
-
-
-
-
 #track {
   background: url('images/track.jpg');
   height: 450px;
@@ -31,25 +16,6 @@ button {
 
 #car1 { top: 30px; }
 #car2 { top: 130px; }
-
-#raceInfoContainer {
-    width: 80%;
-    margin: 40px auto 0;
-    background: #333;
-    height: 200px;
-}
-
-input[type="button"] {
-    background: #77b72f;
-    color: white;
-    padding: 10px 20px;
-    border: solid 1px #444;
-}
-
-input#reset {
-    background: #fc3;
-    color: #444;
-}
 
 .clearfix:after {
     content:"";
