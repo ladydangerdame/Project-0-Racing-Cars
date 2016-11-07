@@ -29,6 +29,14 @@ h1, h2, h3 {
     clear: both;
 }
 
+.player1 {
+margin-left: inherit;
+}
+
+.player2 {
+margin-left: inherit;
+}
+
 #refresh {
   background-color: #FFC107;
   color: #757575;
