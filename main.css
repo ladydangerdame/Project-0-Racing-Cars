@@ -1,5 +1,11 @@
 body {
     text-align: center;
+    background-color: #455A64;
+}
+
+h1, h2, h3 {
+  color: white;
+  font-family: monospace;
 }
 
 #track {
@@ -21,4 +27,10 @@ body {
     content:"";
     display: table;
     clear: both;
+}
+
+#refresh {
+  background-color: #FFC107;
+  color: #757575;
+
 }

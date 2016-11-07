@@ -30,3 +30,7 @@ function checkWinner(){
     alert('Windows wins!');
 
 }
+
+$('button').click(function() {
+    location.reload();
+});
