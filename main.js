@@ -25,15 +25,13 @@ $(document).ready(function() {
               checkWinner2();
 
               function checkWinner1(){
-                  if ($('.player1').css('margin-left')==='1400px') {
+                  if ($('.player1').css('margin-left')==='970px') {
                     alert('Player1 wins!');
-
                   }
               }
               function checkWinner2(){
-                  if ($('.player2').css('margin-left')==='1400px') {
+                  if ($('.player2').css('margin-left')==='970px') {
                     alert('Player2 wins!');
-
                   }
               }
           }

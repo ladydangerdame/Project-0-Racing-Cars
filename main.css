@@ -1,11 +1,13 @@
+
+@import url("https://fonts.googleapis.com/css?family=Exo+2");
 body {
+    font-family: 'Exo 2', sans-serif;
     text-align: center;
     background-color: #455A64;
 }
 
 h1, h2, h3 {
   color: white;
-  font-family: monospace;
 }
 
 #track {
@@ -29,13 +31,6 @@ h1, h2, h3 {
     clear: both;
 }
 
-.player1 {
-margin-left: inherit;
-}
-
-.player2 {
-margin-left: inherit;
-}
 
 #refresh {
   background-color: #FFC107;
